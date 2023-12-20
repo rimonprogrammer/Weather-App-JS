@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="weather_app">
+            <div class="weather_search">
+                <div>
+                    <form id="form">
+                        <input type="text" placeholder="Get Weather.." name="aria">
+                        <button><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="weather_img">
+                <img src="img/cloud.png" alt="">
+            </div>
+            <div class="weather_tmp">
+                <div>
+                    <h1 id="temp">00° C</h1>
+                    <p id="countryName">Aria Name</p>
+                    <p id="sky">Sky</p>
+                </div>
+            </div>
+            <div class="weather_Humanity_speed">
+                <div class="weather_Humanity">
+                    <div>
+                        <img src="img/humidity.png" alt="">
+                    </div>
+                    <div>
+                        <h3 id="humanity">00%</h3>
+                        <p>Humanity</p>
+                    </div>
+                </div>
+                <div class="weather_speed">
+                    <div>
+                        <img src="img/wind.png" alt="">
+                    </div>
+                    <div>
+                        <h3 id="windSpeed">0.00 Km/h</h3>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/696233e01c.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+
+}
+.weather_app{
+    height: 450px;
+    min-width:350px;
+    border-radius: 10px;
+    background: linear-gradient(#C33764  , #1D2671);
+    /* background-color: #1F1262; */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.weather_search{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.weather_search input{
+    width: 260px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.weather_search button{
+    margin-left: -30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.weather_search i{
+    top: 3px;
+    position: relative;
+    font-size: 18px;
+    color: rgb(5, 1, 75);
+}
+
+.weather_img{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.weather_img img{
+    width: 120px;
+}
+
+.weather_tmp{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.weather_tmp div h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+.weather_tmp div p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+}
+.weather_tmp div p:last-child{
+    color: orange;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+}
+.weather_Humanity_speed{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+.weather_Humanity, 
+.weather_speed{
+    display: flex;
+    align-items: center;
+}
+.weather_Humanity img,
+.weather_speed img{
+    width: 40px;
+    padding-right: 10px;
+}
+.weather_Humanity h3, 
+.weather_speed h3{
+    color: white;
+}
+.weather_Humanity p, 
+.weather_speed p{
+    color: white;
+}
+
+
+@media (max-width:360px) {
+    .weather_app{
+        height: 450px;
+        min-width:315px;
+        border-radius: 10px;
+        background-color: #1F1262;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+}
