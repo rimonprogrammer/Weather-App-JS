@@ -24,7 +24,7 @@ This is a Weather-APP project. This project is made with JavaScript & weather ap
 
 Live: https://rimonprogrammer.github.io/Weather-App-JS/
 
-<h4>Follow the 3 Steps to get the project</h4>
+<h4>Follow the Step to live the project</h4>
 <ul>
   <li>Clone the Project</li>
   <li>Simply run the command (npm install) for node_modulees folder</li>
