@@ -5,8 +5,9 @@ This is a Weather-APP project. This project is made with JavaScript & weather ap
 
 <h4>Using technologies & packages</h4>
 <ul>
-  <li>JavaScript</li>
+  <li>HTML</li>
   <li>CSS</li>
+  <li>JavaScript</li>
   <li>openweather API</li>
   <li>Font awesome</li>
 </ul>
